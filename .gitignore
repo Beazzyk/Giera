@@ -11,3 +11,10 @@ Thumbs.db
 # Ignorowanie plików build / output
 dist/
 build/
+
+
+# Ignoruj katalog .git
+.git/
+
+# Ignoruj plik .gitignore, jeśli chcesz
+.gitignore
