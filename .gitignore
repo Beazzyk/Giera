@@ -1,0 +1,13 @@
+# Ignorowanie katalogu node_modules
+node_modules/
+
+# Ignorowanie plików logów
+*.log
+
+# Ignorowanie plików systemowych
+.DS_Store
+Thumbs.db
+
+# Ignorowanie plików build / output
+dist/
+build/
