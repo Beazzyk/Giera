@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .game-map-container {
   position: relative;
   width: 100%;
@@ -17,3 +18,24 @@
   background-repeat: no-repeat; /* Zapobieganie powtarzaniu obrazu */
 }
 
+=======
+.game-map-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Wysokość na pełną wysokość okna przeglądarki */
+  overflow: hidden;
+}
+
+.game-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ustawienie mapy na pełną wysokość i szerokość */
+  background-image: url('/images/ithan3.png'); /* Ścieżka do obrazu mapy */
+  background-size: cover; /* Dopasowanie mapy, aby wypełniła całą przestrzeń */
+  background-position: center center; /* Wyśrodkowanie mapy */
+  background-repeat: no-repeat; /* Zapobieganie powtarzaniu obrazu */
+}
+
+>>>>>>> 2c4eef8a8c2af760e670169e3438d8a3a9301b0f
